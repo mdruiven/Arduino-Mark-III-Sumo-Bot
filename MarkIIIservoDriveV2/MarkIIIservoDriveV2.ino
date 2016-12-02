@@ -1,5 +1,8 @@
 /* 
-Test the Mark III servos
+This was used to try and lessen the current drain when running the bot on just the 4 AA batteries.
+In the end the bot seems more stable if the Arduino is supplied from a different voltage source (9 Volt battery) instead
+of sharing the 4 AA batteries.
+Mike Druiven, Nov 30, 2016
 */
 
 #include <Servo.h>
