@@ -1,5 +1,5 @@
-/* Sweep Mark III servos
-Test the Mark II servos
+/* 
+Test the Mark III servos by sweeping each one forward and reverse
 */ 
 
 #include <Servo.h> 
