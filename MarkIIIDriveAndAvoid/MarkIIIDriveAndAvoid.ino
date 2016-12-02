@@ -1,5 +1,6 @@
 /* 
 Drive and avoid walls
+Mike Druiven Nov 30, 2016
 */ 
 
 #include <Servo.h> 
@@ -23,16 +24,16 @@ void setup()
 void loop() 
 {                              
    int disL=sensorL.getDistance();
-   int disR=sensorR.getDistance();
-   if (disL<10){
-    turnRight(400);
+   int disR=sensorR.getDistance(); // Get the left and right ir sensor values.
+   if (disL<10){ // If the left sensor drops below 10 it is very close to something.
+    turnRight(400); // So spin right.
    }
-   else if(disR<10){
-    turnLeft(400);
+   else if(disR<10){ // If the right sensor drops below 10 it is very close to something.
+    turnLeft(400); // So spin left.
    }
    else
    {
-    forward(100);
+    forward(100);  //  Otherwise drive forward.
    }
         
 } 
