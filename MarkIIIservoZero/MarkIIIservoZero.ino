@@ -1,5 +1,6 @@
-/* Sweep Mark III servos
-Test the Mark II servos
+/* 
+Continuous Rotation Servos should be at rest with value 90. 
+Adjust the zeroL and zeroR values until the robot stops moving.
 */ 
 
 #include <Servo.h> 
@@ -12,7 +13,7 @@ int zeroR = 91;
  
 void setup() 
 { 
-  servoL.attach(9);
+  servoL.attach(9); // Servos attached to 9 and 10.
   servoR.attach(10);
 } 
  
