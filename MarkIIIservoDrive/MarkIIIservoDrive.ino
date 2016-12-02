@@ -1,4 +1,4 @@
-/* Sweep Mark III servos
+/* 
 Test the Mark III servos
 */ 
 
@@ -12,8 +12,8 @@ int zeroR = 91;
  
 void setup() 
 { 
-  servoL.attach(9);
-  servoR.attach(10);
+  servoL.attach(9); // The left servo is controlled from pin 9.
+  servoR.attach(10); // The right servo is controlled from pin 10.
 } 
  
 void loop() 
@@ -25,7 +25,7 @@ void loop()
    allStop(3000);        
 } 
 
-void forward(int d)
+void forward(int d) // Drive forward for d milliseconds
 {
     servoL.write(zeroL+50);
     servoR.write(zeroR-50);  
