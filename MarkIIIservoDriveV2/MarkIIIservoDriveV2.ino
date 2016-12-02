@@ -1,4 +1,4 @@
-/* Sweep Mark III servos
+/* 
 Test the Mark III servos
 */
 
