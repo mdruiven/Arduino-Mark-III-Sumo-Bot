@@ -7,7 +7,7 @@ Adjust the zeroL and zeroR values until the robot stops moving.
  
 Servo servoL;
 Servo servoR;
- 
+// Red wheels: zeroL = 89, zeroR = 83; 
 int zeroL = 87; // adjust this value until servo is at rest
 int zeroR = 91; 
  
