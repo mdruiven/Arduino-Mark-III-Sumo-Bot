@@ -8,6 +8,4 @@ The original Mark III robot was designed by the Portland Area Robotics Society a
 
 
 
-Still need to add schematic and Fritzing files for board.
-
 MarkIIIPixy files contain code to operate the Mark III with a Pixycam.
